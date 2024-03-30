@@ -7,14 +7,14 @@ export default function Home() {
             <div className='px-4 lg:px-14 max-w-screen-2cl mx-auto min-h-screen h-screen'>
                 <Carousel >
                     <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
-                        <img src={'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/gifs/health-insurance.gif?raw=true'} alt='' />
+                        <img src={'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/gifs/Animation%20-%201711793017269.gif?raw=true'} alt='' width={500} />
                     </div>
-                    <div className="flex h-full items-center justify-center">
+                    {/* <div className="flex h-full items-center justify-center">
                         Slide 2
                     </div>
                     <div className="flex h-full items-center justify-center">
                         Slide 3
-                    </div>
+                    </div> */}
                 </Carousel>
             </div>
         </div>
