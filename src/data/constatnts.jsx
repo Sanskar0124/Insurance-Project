@@ -26,7 +26,8 @@ export const Slides = [
         content: "Prepare for a comfortable retirement with SureCare's services. From pensions to savings, we're here to help. Start planning today!",
         hashtag: "#PlanForRetirement #SureCareForRetirement",
         content2: "We're here to help you plan...",
-        contact: "Get in Contact"
+        contact: "Get in Contact",
+        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/old_insurance.png?raw=true'
     }
 ];
 
