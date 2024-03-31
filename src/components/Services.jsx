@@ -3,9 +3,9 @@ import React from 'react'
 export default function Services() {
 
     const services = [
-        { id: 1, title: "Expert Consultation", descroption: "Speak with our experienced advisors for personalized insurance guidance and tailored solutions", image: "" },
-        { id: 2, title: "Customized Plans", descroption: "Explore our range of insurance plans tailored to your unique needs, lifestyle, and budget", image: "" },
-        { id: 3, title: "24/7 Support", descroption: "Access our dedicated team for round-the-clock assistance with all your insurance inquiries and needs", image: "" },
+        { id: 1, title: "Expert Consultation", descroption: "Speak with our experienced advisors for personalized insurance guidance and tailored solutions", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/expert_consultation.png?raw=true" },
+        { id: 2, title: "Customized Plans", descroption: "Explore our range of insurance plans tailored to your unique needs, lifestyle, and budget", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/customizable_plan.png?raw=true" },
+        { id: 3, title: "24/7 Support", descroption: "Access our dedicated team for round-the-clock assistance with all your insurance inquiries and needs", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/support.png?raw=true" },
     ]
     return (
         <div className='md:px-14 px-4 py-16 max-w-screen-2x1 mx-auto' id='service'>
@@ -24,7 +24,7 @@ export default function Services() {
             </div> */}
 
             {/* services card  */}
-            <div className='mt-20 md: w-1/2 mx-auto text-center'>
+            <div className='mt-20 md:w-1/2 mx-auto text-center'>
                 <h2 className='text-4x1 text-neutralDGrey font-semibold mb-3'>Discover the SureCare Advantage</h2>
                 <p className='text-neutralGrey'>Experience peace of mind with our expert guidance and personalized insurance solutions</p>
             </div>
