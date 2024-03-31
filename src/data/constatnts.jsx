@@ -11,7 +11,7 @@ export const Slides = [
         hashtag: "#SecureHealth #SureCareInsurance",
         content2: "Get in touch today!",
         contact: "Get in Touch",
-        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true'
+        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.jpg?raw=true'
     },
     {
         title: "Children Planning",
