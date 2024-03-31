@@ -11,7 +11,7 @@ export default function Home() {
                     {Slides.map((item) => (
                         <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                             <div>
-                                <img src={'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true'} alt='' width={800} />
+                                <img src={item?.img} alt='' width={800} />
                             </div>
 
                             {/* hero text  */}

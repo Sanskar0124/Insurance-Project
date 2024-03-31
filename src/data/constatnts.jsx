@@ -10,14 +10,16 @@ export const Slides = [
         content: "Secure your health with SureCare's comprehensive plans. From check-ups to emergencies, we've got you covered. Get in touch today!",
         hashtag: "#SecureHealth #SureCareInsurance",
         content2: "Get in touch today!",
-        contact: "Get in Touch"
+        contact: "Get in Touch",
+        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true'
     },
     {
         title: "Children Planning",
         content: "Invest in your child's future with SureCare's solutions. From education to healthcare, we provide security and support. Let's build a brighter future together!",
         hashtag: "#SecureFuture #SureCareForKids",
         content2: "Build a brighter future!",
-        contact: "Let's Talk"
+        contact: "Let's Talk",
+        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/child_insurance.png?raw=true'
     },
     {
         title: "Retirement Planning",
