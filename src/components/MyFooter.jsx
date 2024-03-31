@@ -1,6 +1,7 @@
 import React from 'react'
 import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Bio } from '../data/constatnts';
 
 export default function MyFooter() {
     return (
@@ -8,9 +9,9 @@ export default function MyFooter() {
             <div className="w-full">
                 <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                     <div className='space-y-4 mb-8'>
-                        <a href="" className='text-2xl font-semibold flex items-center space-x-3'><img src={''}
+                        <a href="" className='text-2xl font-semibold flex items-center space-x-3'><img src={Bio?.logo}
                             alt="" className='w-10 inline-block items-center' /><span className='text-[#263238]
-              '>NEXCENT</span></a>
+              '>{Bio.name}</span></a>
 
                         <div className='mb-1'>
                             <p>Copyright @ 2024 Nexcent ltd.</p>
