@@ -7,18 +7,20 @@ import Navbar from './components/Navbar'
 import Newsletter from './components/Newsletter';
 import Products from './components/Products';
 import Services from './components/Services';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from './pages/LandingPage';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <Services />
-      <About />
-      <Products />
-      <Blog />
-      <Newsletter />
-      <MyFooter />
+      {/* <Navbar /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<LandingPage />} />
+          <Route path='contact' element={<ContactUs />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

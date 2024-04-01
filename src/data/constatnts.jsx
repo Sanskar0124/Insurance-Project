@@ -47,3 +47,10 @@ export const AboutUs = {
         'Your Peace of Mind, Our Priority'
     ]
 };
+
+export const Product = {
+    title: 'Your Journey, Our Promise',
+    content: `Life is unpredictable, but your insurance coverage shouldn't be.At SureCare, we simplify the process, offering straightforward solutions tailored to your needs.With our expert guidance and commitment to your security, you can rest easy knowing you're protected. Trust SureCare for peace of mind, every step of the way.`,
+    image: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/product/route.png?raw=true',
+
+};

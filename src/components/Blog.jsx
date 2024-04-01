@@ -2,17 +2,15 @@ import React from 'react'
 
 export default function Blog() {
     const blogs = [
-        { id: 1, title: " fdghfdgh dfgh fgh dhdghdf dgfhfh", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true" },
-        { id: 2, title: "fdgjikhs dlgh lfsdkjghklsfjg nsljkg sdljfg ssdgskljgslkgsjgg nbl", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true" },
-        { id: 3, title: "sd gsfdgs fgsd sfgsgsd", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true" },
+        { id: 1, title: " fdghfdgh dfgh fgh dhdghdf dgfhfh", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/about%20us/health_insurance2.png?raw=true" },
+        { id: 2, title: "fdgjikhs dlgh lfsdkjghklsfjg nsljkg sdljfg ssdgskljgslkgsjgg nbl", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/about%20us/health_insurance2.png?raw=true" },
+        { id: 3, title: "sd gsfdgs fgsd sfgsgsd", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/about%20us/health_insurance2.png?raw=true" },
     ]
     return (
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12' id='faq'>
             <div className='text-center md:w-1/2 mx-auto'>
-                <h2 className='text-4xl  text-neutralDGrey font-semibold mb-4'>Caring is the new marketing</h2>
-                <p className='text-sm ☐ text-neutralGrey mb-8 md:w-3/4 mx-auto'>Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est
-                    varius fringilla. Pellentesque placerat vestibulum lorem sed porta.</p>
+                <h2 className='text-4xl  text-neutralDGrey font-semibold mb-4'>Insuring with Integrity</h2>
+
             </div>
 
             {/* all blogs  */}

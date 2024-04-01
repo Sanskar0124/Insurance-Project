@@ -1,4 +1,5 @@
 import React from 'react'
+import { Product } from '../data/constatnts'
 
 export default function Products() {
     return (
@@ -7,12 +8,12 @@ export default function Products() {
             <div className='px-4 1g:px-14 max-w-screen-2x1 mx-auto my-8'>
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
                     <div>
-                        <img src={'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true'} alt="" width={400} />
+                        <img src={Product.image} alt="" width={300} />
                     </div>
                     <div className='md:w-3/5 mx-auto'>
-                        <h2 className='text-4xl  text-neutralDGrey font-semibold mb-4 md:w-4/5'>Your Journey, Our Promise</h2>
+                        <h2 className='text-4xl  text-neutralDGrey font-semibold mb-4 md:w-4/5'>{Product.title}</h2>
                         <p className='md:w-3/4 text-sm ☐ text-neutralGrey mb-8'>
-                            Life is unpredictable, but your insurance coverage shouldn't be. At SureCare, we simplify the process, offering straightforward solutions tailored to your needs. With our expert guidance and commitment to your security, you can rest easy knowing you're protected. Trust SureCare for peace of mind, every step of the way.
+                            {Product.content}
                         </p>
                         <button className='btn-primary'>Learn More</button>
                     </div>
