@@ -3,7 +3,7 @@ import React from 'react'
 export default function Services() {
 
     const services = [
-        { id: 1, title: "Expert Consultation", descroption: "Speak with our experienced advisors for personalized insurance guidance and tailored solutions", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/services%20images/presentation_3797362.png?raw=true" },
+        { id: 1, title: "Expert Consultation", descroption: "Speak with our experienced advisors for personalized insurance guidance and tailored solutions", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/services%20images/expert.png?raw=true" },
         { id: 2, title: "Customized Plans", descroption: "Explore our range of insurance plans tailored to your unique needs, lifestyle, and budget", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/customizable_plan.png?raw=true" },
         { id: 3, title: "24/7 Support", descroption: "Access our dedicated team for round-the-clock assistance with all your insurance inquiries and needs", image: "https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/support.png?raw=true" },
     ]
