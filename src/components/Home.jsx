@@ -9,9 +9,10 @@ export default function Home() {
             <div className='px-4 lg:px-14 max-w-screen-2cl mx-auto min-h-screen h-screen'>
                 <Carousel >
                     {Slides.map((item) => (
-                        <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
+                        <div className="md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                             <div>
-                                <img src={item?.img} alt='' width={800} />
+                                <img className='hidden lg:flex' src={item?.img} alt='' width={item?.id === 1 ? 400 : 700} />
+                                <img className='md:hidden' src={item?.img} alt='' width={item?.id === 1 ? 300 : 900} />
                             </div>
 
                             {/* hero text  */}
@@ -20,7 +21,7 @@ export default function Home() {
                                     <span className='text-brandPrimary text-2xl '>{item?.content2}</span>
                                 </h1>
                                 <p className="text-neutralGrey text-base mb-8">{item?.content}</p>
-                                <button className="btn-primary">{item?.contact}</button>
+                                <button className=" btn-primary">{item?.contact}</button>
                             </div>
                         </div>
                     )

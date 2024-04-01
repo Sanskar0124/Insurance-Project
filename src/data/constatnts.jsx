@@ -6,14 +6,17 @@ export const Bio = {
 
 export const Slides = [
     {
+        id: 1,
         title: "Health Insurance",
         content: "Secure your health with SureCare's comprehensive plans. From check-ups to emergencies, we've got you covered. Get in touch today!",
         hashtag: "#SecureHealth #SureCareInsurance",
         content2: "Get in touch today!",
         contact: "Get in Touch",
-        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.jpg?raw=true'
+        img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance3.png?raw=true'
+        // img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance4.png?raw=true'
     },
     {
+        id: 2,
         title: "Children Planning",
         content: "Invest in your child's future with SureCare's solutions. From education to healthcare, we provide security and support. Let's build a brighter future together!",
         hashtag: "#SecureFuture #SureCareForKids",
@@ -22,6 +25,7 @@ export const Slides = [
         img: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/child_insurance.png?raw=true'
     },
     {
+        id: 3,
         title: "Retirement Planning",
         content: "Prepare for a comfortable retirement with SureCare's services. From pensions to savings, we're here to help. Start planning today!",
         hashtag: "#PlanForRetirement #SureCareForRetirement",
