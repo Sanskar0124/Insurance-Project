@@ -35,3 +35,15 @@ export const Slides = [
     }
 ];
 
+export const AboutUs = {
+    title: 'Your Trusted Insurance Partner',
+    content: `Welcome to ${Bio.name}, where your peace of mind is our priority. With personalized solutions and expert guidance, we're dedicated to ensuring you have the coverage you need. Trust in our expertise and commitment to your financial security. At ${Bio.name}, we're not just your insurance provider; we're your trusted partner in safeguarding your future.`,
+    logo: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/logos/logo.png?raw=true',
+    image: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/about%20us/health_insurance2.png?raw=true',
+    image2: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/about%20us/imageedit_22_2083939311.png?raw=true',
+    typeWriter: [
+        'Securing Your Tomorrow, Today',
+        'Protecting What Matters Most to You',
+        'Your Peace of Mind, Our Priority'
+    ]
+};

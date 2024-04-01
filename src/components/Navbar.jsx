@@ -11,6 +11,7 @@ export default function Navbar() {
     // set toggle Menu
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
+        console.log("000000000000000000000000000000000")
     }
 
     useEffect(() => {
@@ -76,7 +77,7 @@ export default function Navbar() {
                 {/* nav items for mobile devices*/}
                 <div className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
                     {
-                        navItems.map(({ link, path }) => <Link to={path} spy={true} smooth={true} offset=
+                        navItems.map(({ link, path }) => <Link onClick={() => toggleMenu()} to={path} spy={true} smooth={true} offset=
                             {-100} key={path} className='block text-base text-white hover:text-brandPrimary
                 first:font-medium'>{link}</Link>)
                     }

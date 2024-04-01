@@ -10,26 +10,23 @@ export default function Products() {
                         <img src={'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true'} alt="" width={400} />
                     </div>
                     <div className='md:w-3/5 mx-auto'>
-                        <h2 className='text-4xl  text-neutralDGrey font-semibold mb-4 md:w-4/5'>The unseen of
-                            spending three years at Pixelgrade</h2>
-                        <p className='md:w-3/4 text-sm ☐ text-neutralGrey mb-8'>Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est
-                            varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
-                            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa
-                            pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                        <h2 className='text-4xl  text-neutralDGrey font-semibold mb-4 md:w-4/5'>Your Journey, Our Promise</h2>
+                        <p className='md:w-3/4 text-sm ☐ text-neutralGrey mb-8'>
+                            Life is unpredictable, but your insurance coverage shouldn't be. At SureCare, we simplify the process, offering straightforward solutions tailored to your needs. With our expert guidance and commitment to your security, you can rest easy knowing you're protected. Trust SureCare for peace of mind, every step of the way.
+                        </p>
                         <button className='btn-primary'>Learn More</button>
                     </div>
                 </div>
             </div>
 
             {/* company stats */}
-            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
+            {/* <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
                 <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
                     <div className='md:w-1/3'>
                         <img src={'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/images/health_insurance.png?raw=true'} alt="" width={400} />
                     </div>
 
-                    {/* stats */}
+
                     <div className='md:w-2/3 mx-auto'>
                         <div>
                             <p className='md:w-4/5 text-sm text-neutralGrey mb-8 leading-7'>
@@ -70,7 +67,7 @@ export default function Products() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )
