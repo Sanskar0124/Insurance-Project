@@ -15,7 +15,7 @@ export default function Products() {
                         <p className='md:w-3/4 text-sm ☐ text-neutralGrey mb-8'>
                             {Product.content}
                         </p>
-                        <button className='btn-primary'>Learn More</button>
+                        {/* <button className='btn-primary'>Learn More</button> */}
                     </div>
                 </div>
             </div>

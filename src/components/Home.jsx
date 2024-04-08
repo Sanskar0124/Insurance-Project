@@ -21,7 +21,7 @@ export default function Home() {
                                     <span className='text-brandPrimary text-2xl '>{item?.content2}</span>
                                 </h1>
                                 <p className="text-neutralGrey text-base mb-8">{item?.content}</p>
-                                <button className=" btn-primary">{item?.contact}</button>
+                                <a href="tel:+919137479331" className=" btn-primary">{item?.contact}</a>
                             </div>
                         </div>
                     )

@@ -7,7 +7,7 @@ import { Footer } from "flowbite-react";
 import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { Outlet, Link as RouterLink } from "react-router-dom";
 
-export default function Navbar({ home }) {
+export default function Navbar({ home, type }) {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
 
@@ -34,12 +34,12 @@ export default function Navbar({ home }) {
     });
 
     const navItems = [
-        { link: "Home", path: "home", type: 'home' },
+        { link: "Home", path: home ? 'home' : '/', router: true },
         { link: "Service", path: "service", type: 'home' },
-        { link: "About", path: "about", type: 'home' },
         { link: "Request Call", path: "request", type: 'home' },
-        { link: "Home", path: "/", router: true },
-        { link: "Contact Us", path: "contact", router: true },
+
+        { link: "About Us", path: home ? 'about' : '/about', router: true },
+        { link: "Contact Us", path: home ? 'contact' : '/contact', router: true },
         // { link: "FAQ", path: "faq" },
     ];
     return (
@@ -48,7 +48,7 @@ export default function Navbar({ home }) {
                 <nav className={`py-4 ls:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" : ""}`}>
 
                     <div className='flex justify-between items-center text-base gap-8'>
-                        <a href="" className='text-2xl font-semibold flex items-center space-x-3'><img src={Bio.logo}
+                        <a href="/" className='text-2xl font-semibold flex items-center space-x-3'><img src={Bio.logo}
                             alt="" className='w-10 inline-block items-center' /><span className='text-[#263238]
                         '>{Bio.name}</span></a>
 
@@ -57,12 +57,10 @@ export default function Navbar({ home }) {
                             {
                                 navItems.map(({ link, path, router }) => {
                                     if (home) {
-                                        if (path === 'contact')
+                                        if (path === 'contact' || path == 'about')
                                             return (<RouterLink to={path} spy={true} smooth={true} offset={-100}
                                                 key={path} className='block cursor-pointer text-base text-gray900 ☐ hover:text-brandPrimary
                       first:font-medium'>{link}</RouterLink>)
-                                        else if (path === '/')
-                                            return '';
                                         else
                                             return (<Link to={path} spy={true} smooth={true} offset={-100}
                                                 key={path} className='block cursor-pointer text-base text-gray900 ☐ hover:text-brandPrimary
@@ -102,12 +100,10 @@ export default function Navbar({ home }) {
                         {
                             navItems.map(({ link, path, router }) => {
                                 if (home) {
-                                    if (path === 'contact')
+                                    if (path === 'contact' || path === 'about')
                                         return (<RouterLink onClick={() => toggleMenu()} to={path} spy={true} smooth={true} offset=
                                             {-100} key={path} className='block text-base text-white hover:text-brandPrimary
                                         first:font-medium'>{link}</RouterLink>)
-                                    else if (path === '/')
-                                        return '';
                                     else
                                         return (<Link onClick={() => toggleMenu()} to={path} spy={true} smooth={true} offset=
                                             {-100} key={path} className='block text-base text-white hover:text-brandPrimary

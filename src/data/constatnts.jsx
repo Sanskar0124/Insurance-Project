@@ -54,3 +54,12 @@ export const Product = {
     image: 'https://github.com/Sanskar0124/Insurance-Project/blob/master/src/assets/product/route.png?raw=true',
 
 };
+
+
+export const ContactUsTxt = [
+    "Get in Touch: Let's Connect and Secure Your Future Together",
+    "संपर्कात रहा: आपले जोडणे आणि आपल्या भविष्याची सुरक्षितता करा", // Marathi
+    "संपर्क में रहें: आओ जुड़ें और अपने भविष्य को सुरक्षित बनाएं", // Hindi
+    "સંપર્ક કરો: ચાલો જોડાવીએ અને તમારો ભવિષ્ય સુરક્ષિત કરીએ", // Gujarati
+];
+
